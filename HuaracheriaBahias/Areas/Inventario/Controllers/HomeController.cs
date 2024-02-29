@@ -1,9 +1,10 @@
-﻿using HuaracheriaBahias.Models;
+﻿using HuaracheriaBahias.Modelos.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace HuaracheriaBahias.Controllers
+namespace HuaracheriaBahias.Areas.Inventario.Controllers
 {
+    [Area("Inventario")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
